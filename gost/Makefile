@@ -5,12 +5,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gost
-PKG_VERSION:=3.0.0-beta.10-dark
+PKG_VERSION:=3.0.0-beta.11-dark
 PKG_RELEASE:=$(AUTORELEASE)
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/kontorol/gost/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=c91dfeb98a14f42bc26aa1450209b928e8ffdde32aafa8088b5fe86f71e72655
+PKG_HASH:=0691640fbfeb6dba79436929e92e409cf1f52b866fae39123ca28e4965a16844
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILE:=LICENSE
 PKG_MAINTAINER:=Tianling Shen <cnsztl@immortalwrt.org>
