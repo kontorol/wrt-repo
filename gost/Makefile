@@ -4,7 +4,7 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=gost
+PKG_NAME:=gosht
 PKG_VERSION:=3.0.0-beta-5-dark
 PKG_RELEASE:=$(AUTORELEASE)
 
@@ -25,7 +25,7 @@ GO_PKG_BUILD_PKG:=github.com/go-gost/gost/cmd/gost
 include $(INCLUDE_DIR)/package.mk
 include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 
-define Package/gost
+define Package/gosht
   SECTION:=net
   CATEGORY:=Network
   TITLE:=GO Simple Tunnel
