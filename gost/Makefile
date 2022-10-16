@@ -5,7 +5,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gost
-PKG_VERSION:=3.0.0-beta.9-dark
+PKG_VERSION:=3.0.0-beta.10-dark
 PKG_RELEASE:=$(AUTORELEASE)
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
